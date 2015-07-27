@@ -13,6 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let subView:CustomView = CustomView.instanceFromNib() as! CustomView
+        subView.number = 18
+        subView.bouton.addTarget(self, action: "buttonClicked", forControlEvents: UIControlEvents.TouchUpInside)
+        
+        self.view.addSubview(subView)
+        
+    }
+    
+    
+    func buttonClicked()
+    {
+        print("bouton clické OK")
     }
 
     override func didReceiveMemoryWarning() {

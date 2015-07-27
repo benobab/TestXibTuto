@@ -14,6 +14,8 @@
 		E224679F1B66E2B200A28FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E224679D1B66E2B200A28FAF /* LaunchScreen.storyboard */; };
 		E22467AA1B66E2B300A28FAF /* TestXibTutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22467A91B66E2B300A28FAF /* TestXibTutoTests.swift */; };
 		E22467B51B66E2B300A28FAF /* TestXibTutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22467B41B66E2B300A28FAF /* TestXibTutoUITests.swift */; };
+		E22467C31B66E2D600A28FAF /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22467C21B66E2D600A28FAF /* CustomView.swift */; };
+		E22467C51B66E2E500A28FAF /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22467C41B66E2E500A28FAF /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E22467B01B66E2B300A28FAF /* TestXibTutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestXibTutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22467B41B66E2B300A28FAF /* TestXibTutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXibTutoUITests.swift; sourceTree = "<group>"; };
 		E22467B61B66E2B300A28FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22467C21B66E2D600A28FAF /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		E22467C41B66E2E500A28FAF /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E224679B1B66E2B200A28FAF /* Assets.xcassets */,
 				E224679D1B66E2B200A28FAF /* LaunchScreen.storyboard */,
 				E22467A01B66E2B200A28FAF /* Info.plist */,
+				E22467C21B66E2D600A28FAF /* CustomView.swift */,
+				E22467C41B66E2E500A28FAF /* CustomView.xib */,
 			);
 			path = TestXibTuto;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E224679F1B66E2B200A28FAF /* LaunchScreen.storyboard in Resources */,
+				E22467C51B66E2E500A28FAF /* CustomView.xib in Resources */,
 				E224679C1B66E2B200A28FAF /* Assets.xcassets in Resources */,
 				E224679A1B66E2B200A28FAF /* Main.storyboard in Resources */,
 			);
@@ -255,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22467C31B66E2D600A28FAF /* CustomView.swift in Sources */,
 				E22467971B66E2B200A28FAF /* ViewController.swift in Sources */,
 				E22467951B66E2B200A28FAF /* AppDelegate.swift in Sources */,
 			);
